@@ -2,8 +2,7 @@ body {
   font-family: sans-serif;
   font-size:110%;
   background-color: #B3DFFD !important;
-  margin: 40px;
-  padding: 20px;
+ 
  /* border-style: solid;
   border-color:#284B63;*/
 display: flex;
@@ -14,8 +13,7 @@ main {
  /*display: flex; (when I add this it renders wrong. I left it out instead. Please help fix)
 flex-direction: row;
 overflow: unset;*/
-  margin-left: 150px;
-  margin-right: 150px;
+
   color: #ffffff;
 }
 
@@ -72,15 +70,12 @@ a:hover {
 header {
   background-color: #284B63;
   text-align: center;
-  padding: 5px;
-  margin: 20px;
+
   }
 
 #Heading {
   color: #353535;
   background-color: #FFFFFF;
-  margin: 5px;
-  padding: 10px;
 }
 
 #TopSection{
@@ -91,8 +86,7 @@ header {
 nav {
   color: #353535;
   background-color: #FFFFFF; 
-  margin: 10px;
-  padding: 10px;
+
 }
 
 #Menu {
@@ -110,23 +104,17 @@ main {
 #Education {
   color: #353535;
   background-color: #FFFFFF;
-  margin: 10px;
-  padding: 10px;
-
 }
 
 .rightsidelogos{
   float: right;
-  margin-top: 50px;
-  padding-right: 100px;
+
 }
 
 #Jobs {
   color: #353535;
   background-color: #FFFFFF;
-;
-  margin: 10px;
-  padding: 10px;
+
 }
 
 #Interests {
@@ -134,8 +122,6 @@ color: black;
 background:#FFFFFF url(/images/surfBackground.jpg);
 background-position: center;
 background-repeat: repeat;
-  margin: 10px;
-  padding: 10px;
 }
 
 
@@ -143,22 +129,17 @@ background-repeat: repeat;
 #Skill {
   color: #353535;
   background-color: #FFFFFF;
-  margin: 10px;
-  padding: 10px;
 }
 
 footer {
   color:  #353535;
   background-color: #284B63;
   text-align: center;
-  padding: 5px;
-  margin: 20px;
 }
 
 #Footer {
   background-color: #FFFFFF;
-  margin: 5px;
-  padding: 10px;
+ 
 }
 
 .iconsleft {
