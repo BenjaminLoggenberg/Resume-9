@@ -1,0 +1,392 @@
+body {
+  font-family: sans-serif;
+  font-size:110%;
+  background-color: #B3DFFD !important;
+  margin: 40px;
+  padding: 20px;
+ /* border-style: solid;
+  border-color:#284B63;*/
+display: flex;
+flex-direction: column;
+}
+/*When I use flex and flex-direction column it works in the body but in my main it doesn't render how it looks in resume 6 video*/
+main {
+ /*display: flex; (when I add this it renders wrong. I left it out instead. Please help fix)
+flex-direction: row;
+overflow: unset;*/
+  margin-left: 150px;
+  margin-right: 150px;
+  color: #ffffff;
+}
+
+#PP {
+  margin-top: 20px;
+  border-style: solid;
+  border-color: #284B63;
+border-radius: 50%;
+/*border=radius:1000px 1000px 1000px 1000px*/
+border-width: 5px;
+}
+
+h1 {
+  color:#284B63;
+  border-style: dashed;
+  border-color: #284B63;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 3px;  
+  border-right-width: 3px;
+  border-radius: 20px 20px 20px 20px;   
+margin: 20px;
+padding: 40px;
+}
+
+h2 {
+  color: #284B63;
+  font-family: fantasy;
+  font-weight: lighter;
+  text-align: center;
+  border-style: dashed;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 3px;  
+  border-right-width: 3px;
+  border-color: #284B63;
+  border-radius: 20px 20px 20px 20px;   
+  padding: 15px;
+  margin: 10px; 
+}
+
+a {
+  color: #353535;
+}
+
+a:active {
+  color:gray;
+}
+
+a:hover {
+  color:gray;
+}
+
+header {
+  background-color: #284B63;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+  }
+
+#Heading {
+  color: #353535;
+  background-color: #FFFFFF;
+  margin: 5px;
+  padding: 10px;
+}
+
+#TopSection{
+    font-family: fantasy;
+    font-weight: lighter;
+}
+
+nav {
+  color: #353535;
+  background-color: #FFFFFF; 
+  margin: 10px;
+  padding: 10px;
+}
+
+#Menu {
+  font-family: fantasy;
+  font-weight: lighter;
+color: #284B63;
+}
+
+main {
+    color: #081C15;
+    background-color: #284B63; 
+}
+
+
+#Education {
+  color: #353535;
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.rightsidelogos{
+  float: right;
+  margin-top: 50px;
+  padding-right: 100px;
+}
+
+#Jobs {
+  color: #353535;
+  background-color: #FFFFFF;
+;
+  margin: 10px;
+  padding: 10px;
+}
+
+#Interests {
+color: black;
+background:#FFFFFF url(/images/surfBackground.jpg);
+background-position: center;
+background-repeat: repeat;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+#Skill {
+  color: #353535;
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  color:  #353535;
+  background-color: #284B63;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+}
+
+#Footer {
+  background-color: #FFFFFF;
+  margin: 5px;
+  padding: 10px;
+}
+
+.iconsleft {
+  float: left; 
+color:  #353535;
+  font-family: fantasy;
+  font-weight: lighter;
+  justify-content: space-evenly;
+}
+
+
+.Reachme {
+  color:  #353535;
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+
+#ContactDetails{
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #Sidebar {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #Sidebar {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #Sidebar {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  article {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  article {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  article {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #Jobs {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #Jobs {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #Jobs {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #Skill {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #Skill {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #Skill {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #Interests {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #Interests {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #Interests {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #Footer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #Footer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #Footer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .rightsidelogos {
+    max-width: 100%;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rightsidelogos {
+    max-width: 100%;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .rightsidelogos {
+    max-width: 100%;
+    display: inline-block;
+  }
+}
